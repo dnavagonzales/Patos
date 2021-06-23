@@ -1,7 +1,7 @@
 public class RedheadDuck extends Duck implements Quackable,Flyable{
 	@Override
 	public void display() {
-		System.out.println("I am a Readhead Duck!!");
+		System.out.println("I am a Readhead Duck. I can:");
 	}
 
 	@Override
