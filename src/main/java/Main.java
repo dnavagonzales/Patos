@@ -7,12 +7,12 @@ public class Main {
 		RubberDuck rubberDuck = new RubberDuck();
 		rubberDuck.display();
 		rubberDuck.swim();
-		rubberDuck.quack();
+		//rubberDuck.quack();
 		System.out.println("----------------------------------");
 		MallardDuck mallardDuck = new MallardDuck();
 		mallardDuck.display();
-		mallardDuck.fly();
-		mallardDuck.quack();
+		//mallardDuck.fly();
+		//mallardDuck.quack();
 		mallardDuck.swim();
 
 

@@ -12,7 +12,7 @@ no vuelan, heredacen este comportamiento.
     
 5. Como una solucion se puede extraer los metodos que no todos
    los Patos realizan fuera de la clase Duck hacia Interfaces. 
-   Por ejemplo Quakable Flyable, asi solo los patos que necesiten 
+   Por ejemplo Quakable FlyBehaviour, asi solo los patos que necesiten 
    los implementaran.
    
 6. El las interfaces reemplazan el uso de herencia de metodos que no todos 
@@ -21,4 +21,17 @@ los patos utilizan, Si bien la solucion se hace menos rigida, se duplica codigo.
 7. Nos basamos en 2 principios el primero seramos todo lo que cambia 
    de lo que se mantiene constante y el segundo principio que nos indica
    que debemos programar interfaces no implementaciones.
+8. Quitamos todas las implementaciones del metodo fly and quack de las 
+subclases patos.
+   
+9. Tambien quitamos de las subclases patos la implementacion de las interfaces
+de comportamiento flyable and quackable.
+   
+10. Implemente un nuevo requerimiento de patos que vuelan con cohetes, 
+    por lo que agregamos una nueva clase al conjunto de clases 
+    del comportamiento volar.
+    
+
+
+
    
