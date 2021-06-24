@@ -17,7 +17,13 @@ public class Main {
 		mallardDuck.performFly();
 		mallardDuck.performQuack();
 		mallardDuck.swim();
-
+		System.out.println("--------Here We declare abstract class but instances de concrete class--------------------------");
+		Duck model = new ModelDuck();
+		model.display();
+		model.performFly();
+		model.setFlyBehaviour(new FlyRocketPowered());
+		System.out.println("Now I can Fly: ");
+		model.performFly();
 
 	}
 
