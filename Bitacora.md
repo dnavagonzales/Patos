@@ -31,6 +31,11 @@ de comportamiento flyable and quackable.
     por lo que agregamos una nueva clase al conjunto de clases 
     del comportamiento volar.
     
+11. Integrate Duck Behavior a consecuencia que extraimos los metodos de
+volar y grasnar de las subclases patos ahora ellas no tiene estos 
+    comportamientos, por lo que necesitamos agregar 2 miembros de tipo 
+    FlyBehavior y QuackBehavior interface a la clase Duck.
+    
 
 
 
