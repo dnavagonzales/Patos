@@ -36,7 +36,9 @@ volar y grasnar de las subclases patos ahora ellas no tiene estos
     comportamientos, por lo que necesitamos agregar 2 miembros de tipo 
     FlyBehavior y QuackBehavior interface a la clase Duck.
     
-
+12. Ahora integraremos las subclases patos con los comportamientos 
+    a travez de sus contructores instanciando el comportamiento que le 
+    corresponde.
 
 
    

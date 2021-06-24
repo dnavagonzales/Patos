@@ -4,7 +4,8 @@ public class MallardDuck extends Duck {
 		System.out.println("I am a Mallard Duck. I can:");
 	}
 
-
-
-
+	public MallardDuck() {
+		setFlyBehaviour(new FlyWithWings());
+		setQuackBehaviour(new Quak());
+	}
 }
